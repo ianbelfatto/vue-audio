@@ -179,7 +179,7 @@ p {
   font-family: "SF Mono", sans-serif;
   font-weight: 800;
   font-size: 12px;
-  opacity: 50%;
+  /* opacity: 50%; */
 }
 
 table {
@@ -197,7 +197,7 @@ audio::-webkit-media-controls-panel {
 }
 
 audio::-webkit-media-controls-play-button {
-  background-color: whitesmoke;
+  background-color: lightgray;
   border-radius: 100%;
 }
 
