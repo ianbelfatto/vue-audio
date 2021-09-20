@@ -7,6 +7,7 @@
     </div>
     <br />
     <br />
+    <!-- HTML TABLE -->
     <table>
       <tbody>
         <tr>
@@ -64,6 +65,7 @@
       </tbody>
     </table>
 
+    <!-- INITIAL SOUND FORMAT -->
     <!-- <div>
       <div class="title"><img src="../assets/bushes.png" alt="" /></div>
       <audio controls loop class="audio-display">
