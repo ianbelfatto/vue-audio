@@ -115,7 +115,7 @@
         <i>
           Vue.js, HTML, CSS,
           <br />
-          Photoshop, FreeSoundLibrary
+          Photoshop, FreeSoundLibrary, Netlify
         </i>
       </p>
       <p>
