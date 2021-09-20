@@ -1,10 +1,7 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link>
-      |
-      <router-link to="/about">About</router-link>
-    </div>
+    <!-- <div id="nav">
+    </div> -->
     <router-view />
   </div>
 </template>
@@ -30,4 +27,29 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+html {
+  height: 100%;
+  /* background: rgb(34, 193, 195); */
+  /* background: linear-gradient(120deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%); */
+}
+
+body {
+  max-height: 100%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+audio {
+  width: 500px;
+  height: 30px;
+  margin: auto;
+}
+
+/* .sounds {
+  position:initial;
+  left: 50px;
+  top: 150px;
+} */
 </style>
