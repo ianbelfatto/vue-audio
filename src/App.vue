@@ -30,12 +30,12 @@
 
 html {
   height: 100%;
-  background: #00f260; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #0575e6, #00f260); /* Chrome 10-25, Safari 5.1-6 */
+  background: #eecda3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #ef629f, #eecda3); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to top,
-    #0575e6,
-    #00f260
+    #ef629f,
+    #eecda3
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -51,10 +51,4 @@ audio {
   height: 30px;
   margin: auto;
 }
-
-/* .sounds {
-  position:initial;
-  left: 50px;
-  top: 150px;
-} */
 </style>

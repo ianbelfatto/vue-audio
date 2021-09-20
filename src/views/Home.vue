@@ -1,6 +1,8 @@
 <template>
   <div class="home">
     <div class="logo">
+      <br />
+      <br />
       <img src="../assets/relaxrlogo.png" alt="" />
     </div>
     <br />
@@ -97,6 +99,44 @@
         Your browser does not support the audio element.
       </audio>
     </div> -->
+    <br />
+    <br />
+    <!-- NOTES -->
+    <div>
+      <p>
+        Relaxr (an audio relaxation web app),
+        <br />
+        built by Ian Belfatto
+      </p>
+    </div>
+    <div>
+      <p>
+        using:
+        <i>
+          Vue.js, HTML, CSS,
+          <br />
+          Photoshop, FreeSoundLibrary
+        </i>
+      </p>
+      <p>
+        Message me on
+        <a
+          class="social-link"
+          href="https://www.linkedin.com/in/ianbelfatto/"
+          style="color: blue; opacity: 100%"
+          target="_blank"
+        >
+          Linkedin
+          <br />
+        </a>
+        to suggest new sounds!
+      </p>
+    </div>
+    <br />
+    <!-- SOCIAL LINKS -->
+    <div>
+      <a class="social-link" href="https://github.com/ianbelfatto" style="color: black" target="_blank">My GitHub</a>
+    </div>
   </div>
 </template>
 
@@ -133,6 +173,13 @@
   }
 }
 
+p {
+  font-family: "SF Mono", sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  opacity: 50%;
+}
+
 table {
   margin-left: auto;
   margin-right: auto;
@@ -159,5 +206,14 @@ audio::-webkit-media-controls-timeline {
 audio::-webkit-media-controls-current-time-display,
 audio::-webkit-media-controls-time-remaining-display {
   display: none;
+}
+
+.social-link {
+  padding-left: 4px;
+  padding-right: 4px;
+  font-family: "SF Mono";
+  font-size: 12px;
+  font-weight: 800;
+  /* text-decoration: none; */
 }
 </style>
